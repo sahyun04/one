@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee House Tasha</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+
+</head>
+<div id="modal">
+    <div class="contents">
+        <button><img class="btn" src="images/md2.png" alt=""></button>
+        <div class="photo-album">
+
+            <h1><span><abbr title="and" class="amp"></abbr> Tasha's Menu</span></h1>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2254117707/in/set-72157604232220981" class="large polaroid img1"><img src="images/sm1.jpg" alt="">선녀떡 :<br> 바리스타가 "선녀 커피"와 즐겨 먹는 떡</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2254700486/in/set-72157604232220981/" class="polaroid img2"><img src="images/sm2.jpg" alt="">참새의 튀밥 :<br>많이 먹어도 참새처럼 가벼워지는 떡</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2254704566/in/set-72157604232220981/" class="small polaroid img3"><img src="images/sm3.jpg" alt="">안 검은 떡 :<br> 검은물과 먹으면 딱 기가막힌 떡</a>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2311404989/in/set-72157604232220981/" class="medium polaroid img4"><img src="images/sm4.jpg" alt="">별빛 알레강스 :<br>"달빛 알레강스"와 꼭 먹어야 하는 떡</a>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2312219680/in/set-72157604232220981" class="polaroid img5"><img src="images/sm5.jpg" alt="">돼요. 왕자님 :<br>커플이라면 "안돼요 공주님"과 함께 필히 먹어야 하는 떡</a>
+
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2254789880/in/set-72157604232220981/" class="polaroid img6"><img src="images/sm6.JPG" alt="">사슴의 콩떡 :<br>"사슴의 눈물"로 반죽한 떡</a>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2341399904/in/set-72157604232220981/" class="polaroid img7"><img src="images/sm9.jpg" alt="">검은떡 :<br>검은물과 반드시 먹어야 하는 떡</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2352603191/in/set-72157604232220981/" class="small polaroid img8"><img src="images/mm1.jpg" alt="">사슴의 눈물 :<br>카라멜 & 알몬드의 맛과 너티함</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2340993237/in/set-72157604232220981/" class="medium polaroid img9"><img src="images/mm2.jpg" alt="">참새의 아침식사 :<br>깊은 바디감, 묵직한 고소함</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2306995686/in/set-72157604033893095/" class="polaroid img10"><img src="images/mm3.jpg" alt="">안돼요. 공주님 :<br>화사한 꽃향기, 발랄한 맛</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2306989200/in/set-72157604033893095/" class="small polaroid img11"><img src="images/mm4.jpg" alt="">달빛 알레강스 :<br>독특한 향미, 고소하고 달콤한 향</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2352608953/in/set-72157604232220981/" class="small polaroid img12"><img src="images/mm5.jpg" alt="">검은물 :<br>다크한 맛</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2341816430/in/set-72157604232220981/" class="small polaroid img13"><img src="images/ss6.jpg" alt="">Us in a blue cave on the Franz Josef glacier</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2352490411/in/set-72157604232220981/" class="small polaroid img14"><img src="images/s2.jpg" alt="">Stewart Island</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2339184562/in/set-72157604232220981/" class="polaroid img15"><img src="images/mm6.jpg" alt="">선녀커피 :<br>바리스타 마음 내키는 대로 만드는 맛</a>
+
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".text").click(function() {
+            $("#modal").show();
+        });
+        $(".btn").click(function() {
+            $("#modal").hide();
+        });
+    });
+</script>
+
+<body>
+    <!----------------slide  start---------------->
+   
+    <div id="container">
+        <div id="wrapper1">
+            <div id="ei-slider" class="ei-slider">
+                <ul class="ei-slider-large">
+                    <li>
+                        <img src="images/s1.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/ss1.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/ss2.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/ss3.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/ss4.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/ss5.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/s3.jpg" alt="" />
+                        <div class="ei-title">
+                            <h2>Coffee House</h2>
+                            <h3>Tasha</h3>
+                        </div>
+                    </li>
+                </ul><!-- ei-slider-large -->
+                <ul class="ei-slider-thumbs">
+                    <li class="ei-slider-element">Current</li>
+                    <li><a href="#">Slide 6</a> <img src="images/s1.jpg" alt="" /></li>
+                    <li><a href="#">Slide 1</a> <img src="images/ss1.jpg" alt="" /></li>
+                    <li><a href="#">Slide 2</a> <img src="images/ss2.jpg" alt="" /></li>
+                    <li><a href="#">Slide 3</a> <img src="images/ss3.jpg" alt="" /></li>
+                    <li><a href="#">Slide 4</a> <img src="images/ss4.jpg" alt="" /></li>
+                    <li><a href="#">Slide 3</a> <img src="images/ss5.jpg" alt="" /></li>
+                    <li><a href="#">Slide 4</a> <img src="images/s3.jpg" alt="" /></li>
+                </ul><!-- ei-slider-thumbs -->
+            </div><!-- ei-slider -->
+        </div><!-- wrapper -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.eislideshow.js"></script>
+
+        <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+        <script>
+            $(function() {
+                $('#ei-slider').eislideshow({
+                    animation: 'center',
+                    autoplay: true,
+                    slideshow_interval: 3000,
+                    titlesFactor: 0
+                });
+            });
+
+            (function(window, $, undefined) {
+
+                    var $event = $.event,
+                    resizeTimeout;
+
+                $event.special.smartresize = {
+                    setup: function() {
+                        $(this).bind("resize", $event.special.smartresize.handler);
+                    },
+                    teardown: function() {
+                        $(this).unbind("resize", $event.special.smartresize.handler);
+                    },
+                    handler: function(event, execAsap) {
+                        // Save the context
+                        var context = this,
+                            args = arguments;
+
+                        // set correct event type
+                        event.type = "smartresize";
+
+                        if (resizeTimeout) {
+                            clearTimeout(resizeTimeout);
+                        }
+                        resizeTimeout = setTimeout(function() {
+                            jQuery.event.handle.apply(context, args);
+                        }, execAsap === "execAsap" ? 0 : 100);
+                    }
+                };
+
+                $.fn.smartresize = function(fn) {
+                    return fn ? this.bind("smartresize", fn) : this.trigger("smartresize", ["execAsap"]);
+                };
+
+                $.Slideshow = function(options, element) {
+
+                    this.$el = $(element);
+
+                    /***** images ****/
+
+                    // list of image items
+                    this.$list = this.$el.find('ul.ei-slider-large');
+                    // image items
+                    this.$imgItems = this.$list.children('li');
+                    // total number of items
+                    this.itemsCount = this.$imgItems.length;
+                    // images
+                    this.$images = this.$imgItems.find('img:first');
+
+                    /***** thumbs ****/
+
+                    // thumbs wrapper
+                    this.$sliderthumbs = this.$el.find('ul.ei-slider-thumbs').hide();
+                    // slider elements
+                    this.$sliderElems = this.$sliderthumbs.children('li');
+                    // sliding div
+                    this.$sliderElem = this.$sliderthumbs.children('li.ei-slider-element');
+                    // thumbs
+                    this.$thumbs = this.$sliderElems.not('.ei-slider-element');
+
+                    // initialize slideshow
+                    this._init(options);
+
+                };
+
+                $.Slideshow.defaults = {
+                    // animation types:
+                    // "sides" : new slides will slide in from left / right
+                    // "center": new slides will appear in the center
+                    animation: 'sides', // sides || center
+                    // if true the slider will automatically slide, and it will only stop if the user clicks on a thumb
+                    autoplay: false,
+                    // interval for the slideshow
+                    slideshow_interval: 3000,
+                    // speed for the sliding animation
+                    speed: 800,
+                    // easing for the sliding animation
+                    easing: '',
+                    // percentage of speed for the titles animation. Speed will be speed * titlesFactor
+                    titlesFactor: 0.60,
+                    // titles animation speed
+                    titlespeed: 800,
+                    // titles animation easing
+                    titleeasing: '',
+                    // maximum width for the thumbs in pixels
+                    thumbMaxWidth: 150
+                };
+
+                $.Slideshow.prototype = {
+                    _init: function(options) {
+
+                        this.options = $.extend(true, {}, $.Slideshow.defaults, options);
+
+                        // set the opacity of the title elements and the image items
+                        this.$imgItems.css('opacity', 0);
+                        this.$imgItems.find('div.ei-title > *').css('opacity', 0);
+
+                        // index of current visible slider
+                        this.current = 0;
+
+                        var _self = this;
+
+                        // preload images
+                        // add loading status
+                        this.$loading = $('<div class="ei-slider-loading">Loading</div>').prependTo(_self.$el);
+
+                        $.when(this._preloadImages()).done(function() {
+
+                            // hide loading status
+                            _self.$loading.hide();
+
+                            // calculate size and position for each image
+                            _self._setImagesSize();
+
+                            // configure thumbs container
+                            _self._initThumbs();
+
+                            // show first
+                            _self.$imgItems.eq(_self.current).css({
+                                'opacity': 1,
+                                'z-index': 10
+                            }).show().find('div.ei-title > *').css('opacity', 1);
+
+                            // if autoplay is true
+                            if (_self.options.autoplay) {
+
+                                _self._startSlideshow();
+
+                            }
+
+                            // initialize the events
+                            _self._initEvents();
+
+                        });
+
+                    },
+                    _preloadImages: function() {
+
+                        // preloads all the large images
+
+                        var _self = this,
+                            loaded = 0;
+
+                        return $.Deferred(
+
+                            function(dfd) {
+
+                                _self.$images.each(function(i) {
+
+                                    $('<img/>').load(function() {
+
+                                        if (++loaded === _self.itemsCount) {
+
+                                            dfd.resolve();
+
+                                        }
+
+                                    }).attr('src', $(this).attr('src'));
+
+                                });
+
+                            }
+
+                        ).promise();
+
+                    },
+                    _setImagesSize: function() {
+
+                        // save ei-slider's width
+                        this.elWidth = this.$el.width();
+
+                        var _self = this;
+
+                        this.$images.each(function(i) {
+
+                            var $img = $(this);
+                            imgDim = _self._getImageDim($img.attr('src'));
+
+                            $img.css({
+                                width: imgDim.width,
+                                height: imgDim.height,
+                                marginLeft: imgDim.left,
+                                marginTop: imgDim.top
+                            });
+
+                        });
+
+                    },
+                    _getImageDim: function(src) {
+
+                        var $img = new Image();
+
+                        $img.src = src;
+
+                        var c_w = this.elWidth,
+                            c_h = this.$el.height(),
+                            r_w = c_h / c_w,
+
+                            i_w = $img.width,
+                            i_h = $img.height,
+                            r_i = i_h / i_w,
+                            new_w, new_h, new_left, new_top;
+
+                        if (r_w > r_i) {
+
+                            new_h = c_h;
+                            new_w = c_h / r_i;
+
+                        } else {
+
+                            new_h = c_w * r_i;
+                            new_w = c_w;
+
+                        }
+
+                        return {
+                            width: new_w,
+                            height: new_h,
+                            left: (c_w - new_w) / 2,
+                            top: (c_h - new_h) / 2
+                        };
+
+                    },
+                    _initThumbs: function() {
+
+                        // set the max-width of the slider elements to the one set in the plugin's options
+                        // also, the width of each slider element will be 100% / total number of elements
+                        this.$sliderElems.css({
+                            'max-width': this.options.thumbMaxWidth + 'px',
+                            'width': 100 / this.itemsCount + '%'
+                        });
+
+                        // set the max-width of the slider and show it
+                        this.$sliderthumbs.css('max-width', this.options.thumbMaxWidth * this.itemsCount + 'px').show();
+
+                    },
+                    _startSlideshow: function() {
+
+                        var _self = this;
+
+                        this.slideshow = setTimeout(function() {
+
+                            var pos;
+
+                            (_self.current === _self.itemsCount - 1) ? pos = 0: pos = _self.current + 1;
+
+                            _self._slideTo(pos);
+
+                            if (_self.options.autoplay) {
+
+                                _self._startSlideshow();
+
+                            }
+
+                        }, this.options.slideshow_interval);
+
+                    },
+                    // shows the clicked thumb's slide
+                    _slideTo: function(pos) {
+
+                        // return if clicking the same element or if currently animating
+                        if (pos === this.current || this.isAnimating)
+                            return false;
+
+                        this.isAnimating = true;
+
+                        var $currentSlide = this.$imgItems.eq(this.current),
+                            $nextSlide = this.$imgItems.eq(pos),
+                            _self = this,
+
+                            preCSS = {
+                                zIndex: 10
+                            },
+                            animCSS = {
+                                opacity: 1
+                            };
+
+                        // new slide will slide in from left or right side
+                        if (this.options.animation === 'sides') {
+
+                            preCSS.left = (pos > this.current) ? -1 * this.elWidth : this.elWidth;
+                            animCSS.left = 0;
+
+                        }
+
+                        // titles animation
+                        $nextSlide.find('div.ei-title > h2')
+                            .css('margin-right', 50 + 'px')
+                            .stop()
+                            .delay(this.options.speed * this.options.titlesFactor)
+                            .animate({
+                                marginRight: 0 + 'px',
+                                opacity: 1
+                            }, this.options.titlespeed, this.options.titleeasing)
+                            .end()
+                            .find('div.ei-title > h3')
+                            .css('margin-right', -50 + 'px')
+                            .stop()
+                            .delay(this.options.speed * this.options.titlesFactor)
+                            .animate({
+                                marginRight: 0 + 'px',
+                                opacity: 1
+                            }, this.options.titlespeed, this.options.titleeasing)
+
+                        $.when(
+
+                            // fade out current titles
+                            $currentSlide.css('z-index', 1).find('div.ei-title > *').stop().fadeOut(this.options.speed / 2, function() {
+                                // reset style
+                                $(this).show().css('opacity', 0);
+                            }),
+
+                            // animate next slide in
+                            $nextSlide.css(preCSS).stop().animate(animCSS, this.options.speed, this.options.easing),
+
+                            // "sliding div" moves to new position
+                            this.$sliderElem.stop().animate({
+                                left: this.$thumbs.eq(pos).position().left
+                            }, this.options.speed)
+
+                        ).done(function() {
+
+                            // reset values
+                            $currentSlide.css('opacity', 0).find('div.ei-title > *').css('opacity', 0);
+                            _self.current = pos;
+                            _self.isAnimating = false;
+
+                        });
+
+                    },
+                    _initEvents: function() {
+
+                        var _self = this;
+
+                        // window resize
+                        $(window).on('smartresize.eislideshow', function(event) {
+
+                            // resize the images
+                            _self._setImagesSize();
+
+                            // reset position of thumbs sliding div
+                            _self.$sliderElem.css('left', _self.$thumbs.eq(_self.current).position().left);
+
+                        });
+
+                        // click the thumbs
+                        this.$thumbs.on('click.eislideshow', function(event) {
+
+                            if (_self.options.autoplay) {
+
+                                clearTimeout(_self.slideshow);
+                                _self.options.autoplay = false;
+
+                            }
+
+                            var $thumb = $(this),
+                                idx = $thumb.index() - 1; // exclude sliding div
+
+                            _self._slideTo(idx);
+
+                            return false;
+
+                        });
+
+                    }
+                };
+
+                var logError = function(message) {
+
+                    if (this.console) {
+
+                        console.error(message);
+
+                    }
+
+                };
+
+                $.fn.eislideshow = function(options) {
+
+                    if (typeof options === 'string') {
+
+                        var args = Array.prototype.slice.call(arguments, 1);
+
+                        this.each(function() {
+
+                            var instance = $.data(this, 'eislideshow');
+
+                            if (!instance) {
+                                logError("cannot call methods on eislideshow prior to initialization; " +
+                                    "attempted to call method '" + options + "'");
+                                return;
+                            }
+
+                            if (!$.isFunction(instance[options]) || options.charAt(0) === "_") {
+                                logError("no such method '" + options + "' for eislideshow instance");
+                                return;
+                            }
+
+                            instance[options].apply(instance, args);
+
+                        });
+
+                    } else {
+
+                        this.each(function() {
+
+                            var instance = $.data(this, 'eislideshow');
+                            if (!instance) {
+                                $.data(this, 'eislideshow', new $.Slideshow(options, this));
+                            }
+
+                        });
+
+                    }
+
+                    return this;
+
+                };
+
+            })(window, jQuery);
+        </script>
+       
+        <!--   ----  special menu start----------->
+        <div id="wrapper2">
+                            <div class="special_logo">
+                                <h1><span>설렘 가득한</span> Special Menu</h1>
+                            </div>
+
+
+                            <div class="special_menu">
+                                <div class="menu1">
+                                    <a class="main" href="#">
+                                        <img src="images/mm4.jpg" alt=""></a>
+                                    <figcaption><div><h4>coffee house<br><strong>Tasha </strong></h4></div></figcation>    
+                                    <a class="sub" href="#"><img src="images/sm3.jpg" alt=""> </a>
+                                    <p>" 달빛알레강스 & 선녀떡 "</p>
+                                </div>
+                                <div class="menu2">
+                                    <a class="main" href="#"><img src="images/mm5.jpg" alt=""></a>
+                                     <figcaption><div><h4> coffee house <br><strong>Tasha </strong></h4></div></figcation>    
+                                    <a class="sub" href="#"><img src="images/sm9.jpg" alt="">
+                                    </a>
+                                     
+                                    <p>" 검은물 & 검은떡 "</p>
+                                </div>
+                                <div class="menu3"><a class="main" href="#">
+                                        <img src="images/mm3.jpg" alt=""></a>
+                                         <figcaption><div><h4>coffee house <br><strong>Tasha </strong></h4></div></figcation>    
+                                    <a class="sub" href="#"><img src="images/sm5.jpg" alt=""></a>
+                                    
+                                    <p>" 안돼요 공주님 & 돼요 왕자님 "</p>
+                                </div>
+                                <h3 class="point"><a href="#">See Menu</a></h3>
+                            </div>
+                        </div>
+
+        <script>
+
+            $(function(){
+      var w=100;
+     var id=setInterval(leftMoving, 5000);
+        
+        $("#left").click(function(){
+            leftMoving();
+        });
+         $("#right").click(function(){
+            rightMoving();
+        });
+        function leftMoving(){
+            $(".photo").animate({left:"-="+w+"px"}, 400, function(){
+                $(".photo li").first().appendTo(".photo");
+                $(".photo").css({left:"+="+w+"px"});
+            });
+        }
+        function rightMoving(){
+            $(".photo").animate({left:"+="+w+"px"}, 400, function(){
+                $(".photo li").last().prependTo(".photo");
+                $(".photo").css({left:"-="+w+"px"});
+            });
+        }
+      });
+           
+
+</script>
+
+
+
+        <!-- ----------------our tasha  start----           -->
+        <div id="wrapper3">
+            <div class="intro_title">
+                <h1>About Tasha</h1>
+            </div>
+            <div class="intro_img"><img src="images/b1.jpg" width="600" height="700" alt="">
+            </div>
+            <div class="intro_text">바리스타 "선옥남" </div>
+            <div class="intro_text1">
+                <p>바리스타 선옥남은 계룡산의 명품 바리스타다. 커피의 신 칼디에게 커피 기술을 직접 배웠던 그녀는 무려 커피콩의 잠재력을 일깨워 커피를 내린다. ‘참새의 아침식사’, ‘안돼요 공주님’ 등 블렌딩의 이름도 독특하다. 다방을 운영하며 몇백 년을 계룡산에 머물렀던 탐랑성이 직접 내린 커피와 "떡파티쉐"가 만드는 절대절대 살 안찌는 떡이 "Tasha"의 자랑이다.<br>
+                    Tasha의 바리스타 "탐랑성 선옥남"이 맷돌로 직접 갈아 달인 커피는 불면증 환자에게 꿀잠을 선물하고, 기억을 읽어가는 치매환자에게는 기억을 선물하고, 카페인의 기가 필요한 사람에게는 에너지를 선물한다. "사슴의 눈물"은 과테말라와 콜롬비아를 7:3 비율로 부렌딩하고 커피맷돌로 분쇄한 후, 15g의 커피와 200ml의 물을 붓고 나무막대로 저어준 뒤 뚜껑을 덮어 3분 후 마시는 것이 비결이다.<br>
+                    Tasha의 바리스타는 ‘사슴과 나무꾼’에 나왔던 실제 선녀다. 아이를 두 명 낳았을 즈음 나무꾼이 나무를 하러 갔다가 절벽에서 떨어져 죽는 바람에 날개옷을 찾지 못해 699년 동안이나 나무꾼의 환생을 기다리며 Tasha에 머물고 있다.
+                </p>
+
+            </div>
+            <div class="intro_text2">
+                <p>Tasha에서 판매하고 있는 떡은 계룡산에서 생산되는 재료로만 만드는 전통떡이다. Tasha의 커피와 찰떡궁합을 이루는 맛으로 한 번 맛 본 사람은 절대절대 끊을 수 없는 마약떡이라고 할까. Tasha의 떡은 3가지 매력을 발산하는 매력떡이다. 첫 째 떡을 싫어하는 젊은이들을 위해 sns에 자랑하고 싶은 비주얼을 기본으로 한다. 간혹 예쁜 비주얼 때문에 사진을 찍기도 전에 손을 들이댄 남정네들의 무지함 때문에 따로 나가기도 한다. 둘 째 빚쟁이가 몰려와도 잊어버릴 정도의 맛이다. 한 번 손을 대면 절대절대 손을 뗄 수가 없다. 셋 째, 아무리 먹어도 살이 찌지 않는다. 위축되는 쌀의 소비를 무한정 증대시킬 수 있는 마법의 떡이다. 
+                </p>
+
+            </div>
+            <div class="intro_sub"><img src="images/1.jpg" alt=""></div>
+            <div id="screen"></div>
+            <div id="particles" style="visibility:hidden">
+                <img src="images/c1.png" width="20" height="20" alt="">
+                <img src="images/c2.png" width="20" height="20" alt="">
+                <img src="images/c3.png" width="20" height="20" alt="">
+                <img src="images/c2.png" width="20" height="20" alt="">
+                <img src="images/c1.png" width="20" height="20" alt="">
+
+            </div>
+            <div class="imgbox"><img src="images/ss9.jpg" width="200" height="200" alt=""></div>
+        </div>
+        <script>
+            tor = {
+                O: 0,
+                xm: 0,
+                ym: 0,
+
+                //////////////////////////////////////////////
+                nbrParticles: 100,
+                speed: 6,
+                strength: .4,
+                radius: 4,
+                perspective: .5,
+                //////////////////////////////////////////////
+
+                mouse: function(e) {
+                    if (tor.drag) {
+                        if (window.event) e = window.event;
+                        tor.xm = e.clientX - tor.nx;
+                        tor.ym = e.clientY - tor.ny;
+                    }
+                },
+
+                run: function() {
+                    var o = tor.O;
+                    do {
+                        o.R += o.V;
+                        o.style.left = Math.round(o.X + Math.cos(o.R) * o.r - o.W) + 'px';
+                        o.style.top = Math.round(o.T + o.Y + Math.sin(o.R) * o.r * tor.perspective - o.H) + 'px';
+                        if (o.parent) {
+                            o.X += (o.parent.X - o.X) * tor.strength;
+                            o.Y += (o.parent.Y - o.Y) * tor.strength;
+                        } else {
+                            o.X = tor.xm;
+                            o.Y = tor.ym;
+                        }
+                        o = o.next;
+                    } while (o);
+                    setTimeout(tor.run, 16);
+                },
+
+                resize: function() {
+                    var o = tor.scr;
+                    tor.nw = o.offsetWidth;
+                    tor.nh = o.offsetHeight;
+                    for (tor.nx = 0, tor.ny = 0; o != null; o = o.offsetParent) {
+                        tor.nx += o.offsetLeft;
+                        tor.ny += o.offsetTop;
+                    }
+                },
+
+                zIndex: function() {
+                    var o = tor.O;
+                    var i = 0;
+                    tor.zI = !tor.zI;
+                    do {
+                        o.style.zIndex = tor.zI ? 1000 - i++ : 1000 + i++;
+                        o = o.next;
+                    } while (o);
+                },
+
+                init: function() {
+                    this.scr = document.getElementById('screen');
+                    this.scr.onselectstart = function() {
+                        return false;
+                    }
+                    this.scr.ondrag = function() {
+                        return false;
+                    }
+                    this.scr.onmousedown = function(e) {
+                        tor.drag = true;
+                        tor.scr.style.cursor = "move";
+                        tor.mouse(e);
+                        return false;
+                    }
+                    this.scr.onmouseup = function() {
+                        tor.drag = false;
+                        tor.scr.style.cursor = "pointer";
+                        return false;
+                    }
+                    this.resize();
+                    var O;
+                    var img = document.getElementById('particles').getElementsByTagName('img');
+                    for (var i = 0; i < this.nbrParticles; i++) {
+                        var o = document.createElement('img');
+                        if (i > 0) {
+                            O.next = o;
+                            o.parent = O;
+                        } else this.O = o;
+                        var P = img[Math.floor(i * (img.length / this.nbrParticles))];
+                        o.src = P.src;
+                        o.r = tor.radius * i * i / this.nbrParticles + 5;
+                        o.W = P.width * .5;
+                        o.H = P.height * .5;
+                        o.T = (-this.nh / 1.8) + (this.nh * 8 / (o.r + 10));
+                        o.R = Math.random() * 2 * Math.PI;
+                        o.X = this.nw / 2;
+                        o.Y = tor.nh * 2;
+                        o.V = this.speed / o.r;
+                        this.scr.appendChild(o);
+                        O = o;
+                    }
+                    tor.xm = tor.nw / 2;
+                    tor.ym = tor.nh * .9;
+                    tor.run();
+                }
+            }
+
+            onload = function() {
+                document.onmousemove = function(e) {
+                    tor.mouse(e);
+                }
+                onresize = tor.resize;
+                tor.init();
+            }
+        </script>
+        <!--        ------ sign start------->
+        <div id="wrapper4">
+            <div class="main_img"><img src="images/18.jpg" alt=""></div>
+         <div class="frontBox">
+         <div class="front1">
+             <h2>ADDRESS</h2>
+             <p>충청남도 공주시 반포면 <br><br> &nbsp;&nbsp;&nbsp; 동학사 1 로 462</p>
+         </div>
+         <div class="front2">
+             <h2>CONTACT</h2>
+             <p>info@mysite.com<br><br>
+              Tel: 123-456-7890</p>
+         </div>
+         <div class="front3">
+             <h2>HOURS</h2>
+             <p>Mon - Fri: 7am - 10pm<br><br>
+                Saturday: 8am - 11pm<br><br>
+                Sunday: 8am - 10pm</p>
+
+         </div>
+          <div class="front4">
+             
+             <p>© 2018 by mijung Kim. Proudly created with Tasha.com</p>
+
+         </div>
+          </div>   
+               
+               <form>
+                    <div id="wrap_login">
+                        <h1 class="member">member login</h1>
+                        <div class="form">
+                            <div class="form2">
+                                <div class="form3">
+                                    <label for="user">아이디</label><input type="text" id="user">
+                                    <div class="clear"></div>
+                                    <label for="pw">비밀번호</label><input type="password" id="pw">
+                                </div>
+                                <input type="submit" value="로그인하기">
+                                <div class="clear"></div>
+                                <div class="form4">
+                             <div class="clear"></div>
+                                    <label><input type="button" value="회원가입"></label><br><br> <label><input type="button" value="아이디/비밀번호 찾기"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+<div class="iconBox">
+    <ul>
+        <li><a href="https://www.facebook.com/TaleOfGyeryongFairy/"><img src="images/i5.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/explore/tags/%EA%B3%84%EB%A3%A1%EC%84%A0%EB%85%80%EC%A0%84/?hl=ko"><img src="images/i6.png" alt=""></a></li>
+        <li><a href="https://www.youtube.com/watch?v=Sm64JU3Zgmk"><img src="images/i7.png" alt=""></a></li>
+        <li><a href="#"><img src="images/i8.png" alt=""></a></li>
+         <li><a class="quick_menu" href="#"><img src="images/i10.png" alt=""></a></li>
+    </ul>
+</div>
+       <script>
+           $(function(){
+               var defaultTop=parseInt($(".quick_menu").css("top"));
+	$(window).on("scroll",function() {
+		var scv=$(window).scrollTop();
+	$(".quick_menu").stop().animate({top:scv+defaultTop+"px"},1000);
+
+});
+           });
+            </script>
+        </div>               
+    </div>
+   <!---------------#wrapper5  start-------->
+  <div id="wrapper5">
+ <div class="logo">
+                        <h1>Tasha</h1>
+                        <p>Speciality Coffee House</p>
+                    </div>
+                    <nav>
+                        <ul>
+                           <li><a class="text" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Menu</a></li>
+                            <li><a id="sos" href="#wrapper2">Special Menu</a></li>
+                            <li><a id="sos" href="#wrapper3">About tasha</a></li>
+                            <li><a id="sos" href="#wrapper4" class="bbb">Sign in</a></li>
+                            <li><a id="aaa" class="text5" href="#">Direction</a></li>
+   	      </ul>
+   	                         </nav>
+
+                </div>    
+                
+    </body>
+<div id="popup">
+    <div class="cont">
+      <div>
+        <img id="cat" src="https://www.kasandbox.org/programming-images/misc/cat-walk.gif">
+    </div>
+     <script>
+  var catEl = document.getElementById("cat");
+  
+  var startTime = new Date().getTime();
+  var walkTheCat = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+  };
+  walkTheCat();
+  </script>
+
+<!--  ---------popup start----- -->
+    <div class="map">
+    <h2>찾아오시는 길</h2>
+    <img src="images/map.jpg" alt="">
+    <h3>산길이 위험하오니 조심조심 살금살금 단디 오세요~</h3>
+    </div>
+  
+        <button><img class="btn1" src="images/md2.png" alt=""></button>
+</div>
+        </div>
+    <script>
+    $(function() {
+        $(".text5").click(function() {
+            $("#popup").show();
+        });
+        $("#popup button").click(function() {
+            $("#popup").hide();
+        });
+          
+       
+          $("nav #sos").click(function(e){
+            $.scrollTo(this.hash || 0,1500);
+            e.preventDefault();
+        });
+        });
+    
+</script>  
+    
+</html>
