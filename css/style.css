@@ -1171,9 +1171,7 @@ nav ul li a{
     font-size: 1.2em;
     text-align: left;
 }
-nav a#pull{
-	display: none;
-}
+
 #aaa{
     margin-left: -50%;
 }
